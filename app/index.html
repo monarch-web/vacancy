@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<title>Горящие туры</title>
+	<meta name="description" content="Тестовое задание для вакансии">
+	<meta name="viewport" content="width=device-width">
+	<link rel="icon" href="images/favicon.png">
+	<meta property="og:image" content="images/dest/preview.jpg">
+	<link rel="stylesheet" href="css/app.min.css">
+
+</head>
+
+<body>
+	<header class="header">
+		<span class="header__menu-btn" id="menu">
+			<button class="menu-button" id="js-menu-button"><span></span></button>
+		</span>
+		<div class="header__menu">
+			<nav id="mySidenav" class="sidenav">
+				<a href="javascript:void(0)" class="closebtn" id="closebtn"">&times;</a>
+				<a href="#travel">ПУТЕШЕСТВИЯ</a>
+				<a href="#about">О НАС</a>
+				<a href="#feedback">ОТЗЫВЫ</a>
+				<a href="#blog">БЛОГ</a>
+			</nav>
+		</div>
+	</header>
+
+	<main class="main">
+		<section class="container toures">
+			<h2 class="section-title">Горящие туры</h2>
+			<div class="toures-filter">
+				<ul class="toures-filter__list">
+					<li class="filter__list-item active">
+						<span>
+							Испания
+						</span>
+					</li>
+					<li class="filter__list-item">
+						<span>
+							Италия
+						</span>
+					</li>
+					<li class="filter__list-item">
+						<span>
+							Исландия
+						</span>
+					</li>
+					<li class="filter__list-item">
+						<span>
+							Турция
+						</span>
+					</li>
+				</ul>
+			</div>
+			<div class="swiper-container s1">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide slide">
+						<div class="slide__content">
+							<div class="slide_preview">
+							  <img src="./images/dest/img-1.jpg" alt="Фото отдыха">
+							  <span class="slide__cost">от 118 112 &#8381</span>
+							</div>
+							<div class="slide__country">
+								<h4>Италия</h4>
+							  </div>
+							<div class="slide__title">
+								<h3>Под небом Тоскны</h3>
+							</div>
+							<div class="slide__road-map">
+								<h5>Сансеполькро — (Перуджа) — Ассизи — Губбио — (Сиена) — Ла Верна — Ангиари — Монтерки — Ареццо — Кортона — (Пиенца) - (Монтепульчано)</h5>
+							</div>
+							<div class="slide__other">
+								<h6 class="other"><span class="other__days">8 дней / 7 ночей</span>     <span class="other__lang">Русский язык</span>
+								  <span class="other__dates">27.04.19 - 04.05.19</span> <span class="other__more-dates">и еще 15 дат</span></h6>
+								  <span class="other__alert">
+									  Авиаперелет включен!
+								  </span>
+							</div>
+						</div>
+					  </div>
+					  <div class="swiper-slide slide">
+						<div class="slide__content">
+							<div class="slide_preview">
+							  <img src="./images/dest/img-2.jpg" alt="Фото отдыха">
+							  <span class="slide__cost">от 140 715 Р &#8381</span>
+							</div>
+							<div class="slide__country">
+								<h4>Исландия</h4>
+							  </div>
+							<div class="slide__title">
+								<h3>Майские каникулы в Исландии</h3>
+							</div>
+							<div class="slide__road-map">
+								<h5>Рейкьявик — Тингвеллир — Гюдльфосс — Скафтафедль — Сельяландсфосс — Скоугафосс — Йёкюльсаурлоун — Голубая Лагуна — Снайфельсйёкутль — Arnarstapi — Рейкьявик</h5>
+							</div>
+							<div class="slide__other">
+								<h6 class="other"><span class="other__days">8 дней / 7 ночей</span>     <span class="other__lang">Русский язык</span>
+								  <span class="other__dates">27.04.19 - 04.05.19</span> <span class="other__more-dates"></span></h6>
+							</div>
+						</div>
+					  </div>
+					  <div class="swiper-slide slide">
+						<div class="slide__content">
+							<div class="slide_preview">
+							  <img src="./images/dest/img-3.jpg" alt="Фото отдыха">
+							  <span class="slide__cost">от 37 302 &#8381</span>
+							</div>
+							<div class="slide__country">
+								<h4>Турция</h4>
+							  </div>
+							<div class="slide__title">
+								<h3>Открытие Турции</h3>
+							</div>
+							<div class="slide__road-map">
+								<h5>Стамбул — Анкара — Каппадокия — Конья — Памуккале — Эфес — Кушадасы — Пергам — Ассос — Троя — Стамбул</h5>
+							</div>
+							<div class="slide__other">
+								<h6 class="other"><span class="other__days">8 дней / 7 ночей</span>     <span class="other__lang">Русский язык</span>
+								  <span class="other__dates">27.04.19 - 04.05.19</span> <span class="other__more-dates">и еще 3 даты</span></h6>
+							</div>
+						</div>
+					  </div>
+					  <div class="swiper-slide slide">
+						<div class="slide__content">
+							<div class="slide_preview">
+							  <img src="./images/dest/img-4.jpg" alt="Фото отдыха">
+							  <span class="slide__cost">от 145 000 &#8381</span>
+							</div>
+							<div class="slide__country">
+								<h4>НОРВЕГИЯ, ШПИЦБЕРГЕН</h4>
+							  </div>
+							<div class="slide__title">
+								<h3>От Свальбарда до Груманта</h3>
+							</div>
+							<div class="slide__road-map">
+								<h5></h5>
+							</div>
+							<div class="slide__other">
+								<h6 class="other"><span class="other__days">8 дней / 7 ночей</span>     <span class="other__lang">Русский язык</span>
+								  <span class="other__dates">27.04.19 - 04.05.19</span> <span class="other__more-dates">и еще 15 дат</span></h6>
+								  <span class="other__alert">
+									  Авиаперелет включен!
+								  </span>
+							</div>
+						</div>
+					  </div>
+					  <div class="swiper-slide slide">
+						<div class="slide__content">
+							<div class="slide_preview">
+							  <img src="./images/dest/img-1.jpg" alt="Фото отдыха">
+							  <span class="slide__cost">от 118 112 &#8381</span>
+							</div>
+							<div class="slide__country">
+								<h4>Италия</h4>
+							  </div>
+							<div class="slide__title">
+								<h3>Под небом Тоскны</h3>
+							</div>
+							<div class="slide__road-map">
+								<h5>Сансеполькро — (Перуджа) — Ассизи — Губбио — (Сиена) — Ла Верна — Ангиари — Монтерки — Ареццо — Кортона — (Пиенца) - (Монтепульчано)</h5>
+							</div>
+							<div class="slide__other">
+								<h6 class="other"><span class="other__days">8 дней / 7 ночей</span>     <span class="other__lang">Русский язык</span>
+								  <span class="other__dates">27.04.19 - 04.05.19</span> <span class="other__more-dates">и еще 15 дат</span></h6>
+								  <span class="other__alert">
+									  Авиаперелет включен!
+								  </span>
+							</div>
+						</div>
+					  </div>
+					  <div class="swiper-slide slide">
+						<div class="slide__content">
+							<div class="slide_preview">
+							  <img src="./images/dest/img-2.jpg" alt="Фото отдыха">
+							  <span class="slide__cost">от 140 715 Р &#8381</span>
+							</div>
+							<div class="slide__country">
+								<h4>Исландия</h4>
+							  </div>
+							<div class="slide__title">
+								<h3>Майские каникулы в Исландии</h3>
+							</div>
+							<div class="slide__road-map">
+								<h5>Рейкьявик — Тингвеллир — Гюдльфосс — Скафтафедль — Сельяландсфосс — Скоугафосс — Йёкюльсаурлоун — Голубая Лагуна — Снайфельсйёкутль — Arnarstapi — Рейкьявик</h5>
+							</div>
+							<div class="slide__other">
+								<h6 class="other"><span class="other__days">8 дней / 7 ночей</span>     <span class="other__lang">Русский язык</span>
+								  <span class="other__dates">27.04.19 - 04.05.19</span> <span class="other__more-dates"></span></h6>
+							</div>
+						</div>
+					  </div>
+					  <div class="swiper-slide slide">
+						<div class="slide__content">
+							<div class="slide_preview">
+							  <img src="./images/dest/img-3.jpg" alt="Фото отдыха">
+							  <span class="slide__cost">от 37 302 &#8381</span>
+							</div>
+							<div class="slide__country">
+								<h4>Турция</h4>
+							  </div>
+							<div class="slide__title">
+								<h3>Открытие Турции</h3>
+							</div>
+							<div class="slide__road-map">
+								<h5>Стамбул — Анкара — Каппадокия — Конья — Памуккале — Эфес — Кушадасы — Пергам — Ассос — Троя — Стамбул</h5>
+							</div>
+							<div class="slide__other">
+								<h6 class="other"><span class="other__days">8 дней / 7 ночей</span>     <span class="other__lang">Русский язык</span>
+								  <span class="other__dates">27.04.19 - 04.05.19</span> <span class="other__more-dates">и еще 3 даты</span></h6>
+							</div>
+						</div>
+					  </div>
+					  <div class="swiper-slide slide">
+						<div class="slide__content">
+							<div class="slide_preview">
+							  <img src="./images/dest/img-4.jpg" alt="Фото отдыха">
+							  <span class="slide__cost">от 145 000 &#8381</span>
+							</div>
+							<div class="slide__country">
+								<h4>НОРВЕГИЯ, ШПИЦБЕРГЕН</h4>
+							  </div>
+							<div class="slide__title">
+								<h3>От Свальбарда до Груманта</h3>
+							</div>
+							<div class="slide__road-map">
+								<h5></h5>
+							</div>
+							<div class="slide__other">
+								<h6 class="other"><span class="other__days">8 дней / 7 ночей</span>     <span class="other__lang">Русский язык</span>
+								  <span class="other__dates">27.04.19 - 04.05.19</span> <span class="other__more-dates">и еще 15 дат</span></h6>
+								  <span class="other__alert">
+									  Авиаперелет включен!
+								  </span>
+							</div>
+						</div>
+					  </div>
+					  <div class="swiper-slide slide">
+						<div class="slide__content">
+							<div class="slide_preview">
+							  <img src="./images/dest/img-1.jpg" alt="Фото отдыха">
+							  <span class="slide__cost">от 118 112 &#8381</span>
+							</div>
+							<div class="slide__country">
+								<h4>Италия</h4>
+							  </div>
+							<div class="slide__title">
+								<h3>Под небом Тоскны</h3>
+							</div>
+							<div class="slide__road-map">
+								<h5>Сансеполькро — (Перуджа) — Ассизи — Губбио — (Сиена) — Ла Верна — Ангиари — Монтерки — Ареццо — Кортона — (Пиенца) - (Монтепульчано)</h5>
+							</div>
+							<div class="slide__other">
+								<h6 class="other"><span class="other__days">8 дней / 7 ночей</span>     <span class="other__lang">Русский язык</span>
+								  <span class="other__dates">27.04.19 - 04.05.19</span> <span class="other__more-dates">и еще 15 дат</span></h6>
+								  <span class="other__alert">
+									  Авиаперелет включен!
+								  </span>
+							</div>
+						</div>
+					  </div>
+					  <div class="swiper-slide slide">
+						<div class="slide__content">
+							<div class="slide_preview">
+							  <img src="./images/dest/img-2.jpg" alt="Фото отдыха">
+							  <span class="slide__cost">от 140 715 Р &#8381</span>
+							</div>
+							<div class="slide__country">
+								<h4>Исландия</h4>
+							  </div>
+							<div class="slide__title">
+								<h3>Майские каникулы в Исландии</h3>
+							</div>
+							<div class="slide__road-map">
+								<h5>Рейкьявик — Тингвеллир — Гюдльфосс — Скафтафедль — Сельяландсфосс — Скоугафосс — Йёкюльсаурлоун — Голубая Лагуна — Снайфельсйёкутль — Arnarstapi — Рейкьявик</h5>
+							</div>
+							<div class="slide__other">
+								<h6 class="other"><span class="other__days">8 дней / 7 ночей</span>     <span class="other__lang">Русский язык</span>
+								  <span class="other__dates">27.04.19 - 04.05.19</span> <span class="other__more-dates"></span></h6>
+							</div>
+						</div>
+					  </div>
+					  <div class="swiper-slide slide">
+						<div class="slide__content">
+							<div class="slide_preview">
+							  <img src="./images/dest/img-3.jpg" alt="Фото отдыха">
+							  <span class="slide__cost">от 37 302 &#8381</span>
+							</div>
+							<div class="slide__country">
+								<h4>Турция</h4>
+							  </div>
+							<div class="slide__title">
+								<h3>Открытие Турции</h3>
+							</div>
+							<div class="slide__road-map">
+								<h5>Стамбул — Анкара — Каппадокия — Конья — Памуккале — Эфес — Кушадасы — Пергам — Ассос — Троя — Стамбул</h5>
+							</div>
+							<div class="slide__other">
+								<h6 class="other"><span class="other__days">8 дней / 7 ночей</span>     <span class="other__lang">Русский язык</span>
+								  <span class="other__dates">27.04.19 - 04.05.19</span> <span class="other__more-dates">и еще 3 даты</span></h6>
+							</div>
+						</div>
+					  </div>
+					  <div class="swiper-slide slide">
+						<div class="slide__content">
+							<div class="slide_preview">
+							  <img src="./images/dest/img-4.jpg" alt="Фото отдыха">
+							  <span class="slide__cost">от 145 000 &#8381</span>
+							</div>
+							<div class="slide__country">
+								<h4>НОРВЕГИЯ, ШПИЦБЕРГЕН</h4>
+							  </div>
+							<div class="slide__title">
+								<h3>От Свальбарда до Груманта</h3>
+							</div>
+							<div class="slide__road-map">
+								<h5></h5>
+							</div>
+							<div class="slide__other">
+								<h6 class="other"><span class="other__days">8 дней / 7 ночей</span>     <span class="other__lang">Русский язык</span>
+								  <span class="other__dates">27.04.19 - 04.05.19</span> <span class="other__more-dates">и еще 15 дат</span></h6>
+								  <span class="other__alert">
+									  Авиаперелет включен!
+								  </span>
+							</div>
+						</div>
+					  </div>			  
+				</div>
+			  </div>
+			  <div class="swiper-button-prev prev-1"></div>
+				<div class="swiper-button-next next-1"></div>
+		</section>
+		
+		<!-- Hot Toures -->
+
+		<section class="container popul-toures">
+			<h2 class="section-title">Популярные туры</h2>
+			<div class="swiper-container s2">
+				<div class="swiper-wrapper wrapper-2">
+					<div class="swiper-slide slide">
+						<div class="slide__content">
+							<div class="slide_preview">
+							  <img src="./images/dest/img-3.jpg" alt="Фото отдыха">
+							  <span class="slide__cost">от 37 302 &#8381</span>
+							</div>
+							<div class="slide__country">
+								<h4>Турция</h4>
+							  </div>
+							<div class="slide__title">
+								<h3>Открытие Турции</h3>
+							</div>
+						</div>
+					  </div>
+					  <div class="swiper-slide slide">
+						<div class="slide__content">
+							<div class="slide_preview">
+							  <img src="./images/dest/img-4.jpg" alt="Фото отдыха">
+							  <span class="slide__cost">от 145 000 &#8381</span>
+							</div>
+							<div class="slide__country">
+								<h4>НОРВЕГИЯ, ШПИЦБЕРГЕН</h4>
+							  </div>
+							<div class="slide__title">
+								<h3>От Свальбарда до Груманта</h3>
+							</div>
+							<div class="slide__road-map">
+								<h5></h5>
+							</div>
+						</div>
+					  </div>	  
+					  <div class="swiper-slide slide">
+						<div class="slide__content">
+							<div class="slide_preview">
+							  <img src="./images/dest/img-2.jpg" alt="Фото отдыха">
+							  <span class="slide__cost">от 140 715 Р &#8381</span>
+							</div>
+							<div class="slide__country">
+								<h4>Исландия</h4>
+							  </div>
+							<div class="slide__title">
+								<h3>Майские каникулы в Исландии</h3>
+							</div>
+						</div>
+					  </div>		  
+					  <div class="swiper-slide slide">
+						<div class="slide__content">
+							<div class="slide_preview">
+							  <img src="./images/dest/img-2.jpg" alt="Фото отдыха">
+							  <span class="slide__cost">от 140 715 Р &#8381</span>
+							</div>
+							<div class="slide__country">
+								<h4>Исландия</h4>
+							  </div>
+							<div class="slide__title">
+								<h3>Майские каникулы в Исландии</h3>
+							</div>
+						</div>
+					  </div>		  
+				</div>
+			  </div>
+				<div class="swiper-button-prev prev-2"></div>
+				<div class="swiper-button-next next-2"></div>
+		</section>
+
+		<section class="container form-section">
+			<h2 class="form__section-title">Заявка на подбор путешествия</h2>
+			<form class="form" action="" method="post">
+				<span class="form-cat">
+					Немного о вас
+				</span>
+				<div class="form__row">
+					<div class="form__col">
+						<label for="name">Имя <span>*</span>
+						</label>
+							<input type="text" name="name">
+						
+					</div>
+					<div class="form__col">
+						<label for="name">Телефон<span></span>
+						</label>
+							<input type="tel" name="tel" placeholder="+7 ___ ___ __ __" requared>
+					</div>
+				</div>
+
+				<span class="form-cat">
+					О ПУТЕШЕСТВИИ
+				</span>
+				<div class="form__row">
+					<div class="form__col">
+						<label for="place" >КУДА И КОГДА ХОТИТЕ ПОЕХАТЬ? <span>*</span></label>
+						<input type="text" placeholder="Континет, стана или город" requared>
+					</div>
+					<div class="form__col">
+						<label for="when">Когда?</label>
+						<input type="text" placeholder="Даты или временной интервал">
+					</div>
+				</div>
+				<div class="form__row">
+					<div class="form__col">
+						<span class="form-cat">
+							УДОБНЫЙ СПОСОБ СВЯЗИ
+						</span>
+						<div class="form__select connect">
+							<div class="form__labels-left">
+								<span class="label">Viber</span>
+								<span class="label">Whatsapp</span>
+								<span class="label">Почта</span>
+								<span class="label">Телефон</span>
+							</div>
+							<div class="control-group">
+								<label class="control control-checkbox">
+										<input type="checkbox" />
+									<div class="control_indicator"></div>
+								</label>
+								<label class="control control-checkbox">
+										<input type="checkbox" />
+									<div class="control_indicator ind-2"></div>
+								</label>
+								<label class="control control-checkbox">
+										<input type="checkbox"  />
+									<div class="control_indicator"></div>
+								</label>
+								<label class="control control-checkbox">
+										<input type="checkbox" />
+									<div class="control_indicator ind-4"></div>
+								</label>
+							</div>
+						</div>
+					</div>
+					<div class="form__col">
+						<span class="form-cat">
+							ОТКУДА УЗНАЛИ О НАС
+						</span>
+						<div class="form__select seo">
+								<div class="form__labels-right">
+									<span class="label">Интернет</span>
+									<span class="label">Рекомендовали друзья</span>
+									<span class="label">Соц. сети</span>
+									<span class="label">Уже ездил</span>
+								</div>
+								<div class="control-group">
+									<label class="control control-checkbox">
+											<input type="checkbox" " />
+										<div class="control_indicator"></div>
+									</label>
+									<label class="control control-checkbox">
+											<input type="checkbox" />
+										<div class="control_indicator ind-2"></div>
+									</label>
+									<label class="control control-checkbox">
+											<input type="checkbox" />
+										<div class="control_indicator"></div>
+									</label>
+									<label class="control control-checkbox">
+											<input type="checkbox" />
+										<div class="control_indicator ind-4"></div>
+									</label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="form__row">
+					<label class="control control-checkbox">
+						Получать свежие предложения по электронной почте
+						<input type="checkbox" checked="checked" />
+					<div class="control_indicator"></div>
+					<div class="control__descr">
+						<span>Каждую неделю мы делаем для вас обзор лучших экспедиций, статей и лайфхаков для путешественников. Если вдруг вам не понравится, вы сможете отписаться в любой момент.</span>
+					</div>
+				</label>
+				</div>
+				<div class="form__row">
+					<label class="control control-checkbox">
+						С обработкой своих персональных данных согласен. <span>*</span>
+						<input type="checkbox" />
+					<div class="control_indicator personal--data"></div>
+					<div class="control__descr">
+						<span>Отправляя заявку я подтверждаю согласие с условиями Пользовательского соглашения</span>
+					</div>
+				</label>
+				</div>
+				<div class="form__row">
+					<div class="form__help">
+						<span>*</span> Поля, которые надо обязательно заполнить
+					</div>
+				</div>
+				<div class="form__row">
+					<button type="submit" class="form__submit">Отправить</button>
+				</div>
+			</form>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<div class="footer__holder">
+			<a href="tel:+78001234567" class="footer__phone p-1">8 (800) 123-45-67</a>
+		</div>
+		<div class="footer__holder">
+			<a href="tel:+78001234567" class="footer__phone p-2">8 (800) 123-45-67</a>
+		</div>
+	</footer>
+
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>

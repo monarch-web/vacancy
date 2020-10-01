@@ -1,0 +1,87 @@
+@import '_fonts.css';
+// USER VARIABLES SECTION
+$fontsize: 18px ;// Body Font Size
+$fontsizetitle: 36px;
+$accent: #FFD241; // Accent Color
+$mainbcgcolor: #FFD241;
+$textcolor: #000 ;// Text Color
+$subtextcolor: #8C8C8C;
+$countytextcolor: #C5B223;
+$alertcolor: #CB0037;
+$textupper: uppercase;
+$system: -apple-system, BlinkMacSystemFont, Arial, sans-serif ;// System Font Family
+$museo100: 'museo_sans_cyrl100';
+$museo300: 'museo_sans_cyrl300';
+$museo500: 'museo_sans_cyrl500';
+$museo700: 'museo_sans_cyrl700';
+$museo900: 'museo_sans_cyrl900';
+
+::placeholder {
+	color: #666;
+}
+
+::selection {
+	background-color: $accent;
+	color: #fff;
+}
+
+input, textarea {
+	outline: none;
+	&:focus:required:invalid { border-color: red }
+	&:required:valid { border-color: green }
+}
+
+body {
+	font-family: $museo300;
+	font-size: $fontsize;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.65;
+	overflow-x: hidden;
+	color: $textcolor;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+}
+
+h2 {
+	font-size: $fontsizetitle;
+	text-transform: $textupper;
+	width: 100%;
+	text-align: center;
+	margin: 45px auto;
+}
+
+h3 {
+	font-size: $fontsize;
+}
+
+.container {
+	position: relative;
+	display: flex;
+    flex-wrap: wrap;
+    max-width: 780px;
+    margin: auto;
+}
+
+.section-title {
+	margin-bottom: 15px;
+	font-family: $museo900;
+}
+
+.slide__country {
+	color: $countytextcolor;
+	text-transform: $textupper;
+	font-size: 9px;
+}
+
+.slide__title, .slide__road-map {
+	font-family: $museo700;
+}
+
+.slide__road-map {
+	color: $subtextcolor;
+	font-size: 11px;
+	margin-bottom: 5px;
+}
